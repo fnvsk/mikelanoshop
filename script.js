@@ -109,7 +109,7 @@ function showContent(contentId) {
     const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["быстрое выполнение заказов.", "отзывчивая поддержка.", "низкие цены.", "просто лучший магазин в мире."];
+const textArray = ["качественно.", "быстро.", "надёжно.", "дёшево."];
 const typingDelay = 100;
 const erasingDelay = 50;
 const newTextDelay = 1000; // Delay between current and next text
@@ -147,3 +147,4 @@ function erase() {
 document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
   if(textArray.length) setTimeout(type, newTextDelay + 250);
 });
+
