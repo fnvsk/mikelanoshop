@@ -595,7 +595,7 @@ height: 90px;
 
 .home-page-button{
   display: block;
-  background-color: var(--button-color);
+  background-color: var(--buy-button-color);
   border-radius: 10px;
   box-shadow: var(--box-shadow);
   color:#fff;
